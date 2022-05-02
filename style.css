@@ -5,8 +5,36 @@
 body {
   font-family: Arial;
   margin: 0;
-  background-color: grey;
+  background-color: rgb(3, 72, 25);
   min-height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background-size: cover;
   background-position: center center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: normal;
+}
+.countdown-container {
+  display: flex;
+}
+
+.big-text {
+  font-weight: bold;
+  font-size: 5rem;
+  line-height: 1;
+  margin: 0 2rem;
+}
+
+.countdown-elem {
+  text-align: center;
+}
+
+.countdown-elem span {
+  font-size: 1.5rem;
 }
